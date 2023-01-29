@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+</head>
+<body>
+    <h1>HOTEL DETAILS FORM</h1>
+    <form action="backendh.php" method="post">
+        <div>
+            Hotel Number:<input type="number" name="Hno" id="" >
+        </div>
+        <br>
+        <div>
+            Hotel Name:<input type="text" name="Hname" id="" >
+        </div>
+        <br>
+        <div>
+            City:<input type="text" name="city" id="" >
+        </div>
+        <br>
+        <div>
+            Phone No.:<input type="number" name="phone" id="" placeholder="Enter a valid 10-digit phone number">
+        </div>
+        <br>
+        <div>
+            Room type:<input type="text" name="Room_type" id="" placeholder="Select from beside dropdown">
+                      <select>
+                      <option value="">Double Bed AC</option>
+                      <option value="">Double Bed Non AC</option>
+                      <option value="">Premium</option>
+                      <option value="">Deluxe</option>
+                      </select>
+        </div>
+        <br>
+        <div>
+            Price:<input type="number" name="Price" id="">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit form">
+        </div>
+    </form>
+</body>
+</html>
